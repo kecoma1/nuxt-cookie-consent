@@ -35,7 +35,7 @@ export default defineNuxtConfig(() => {
 ```
 
 ### Categories
-Below are the listed categories for wich you can add scripts for autoloading.
+Below are the listed categories for which you can add scripts for autoloading.
 If you want to know more about the different categories, and get more in depth understanding of the differences, take a look at the [EU Cookies directive page](https://gdpr.eu/cookies/).
 
 | Property     |  Description                                                                                                                                                                                                                         |
