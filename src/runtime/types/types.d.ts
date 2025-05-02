@@ -158,6 +158,7 @@ export type NuxtCookieConsentOptionsProviderCookieBot = {
   cbid: string
   consentMode?: boolean
   consentModeDefaults?: boolean
+  culture?: NuxtCookieConsentCookieInformationCulture
 }
 // #endregion moduleGeneralOptionsCookieBot
 
