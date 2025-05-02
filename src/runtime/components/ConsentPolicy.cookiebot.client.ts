@@ -13,11 +13,15 @@ export default defineComponent(
         return h(Fragment, { key: 'CookiePolicy' })
       }
 
+      // @ts-ignore
+      const culture = config.culture || 'EN'
+
       return h(Fragment, { key: 'CookiePolicy' }, [
         h('script', {
           id: 'CookieDeclaration',
           src: `https://consent.cookiebot.com/${cbid}/cd.js`,
           type: 'text/javascript',
+          'data-culture': culture,
           async: true,
         }),
       ])
