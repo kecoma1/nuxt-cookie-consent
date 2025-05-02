@@ -1,6 +1,6 @@
 # CookieBot
 
-Websie: [cookiebot.com](https://cookiebot.com)
+Website: [cookiebot.com](https://cookiebot.com)
 
 ## Configuration
 

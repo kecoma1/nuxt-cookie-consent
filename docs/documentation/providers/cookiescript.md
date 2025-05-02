@@ -1,6 +1,6 @@
 # CookieScript
 
-Websie: [cookiescript.com](https://cookiescript.com)
+Website: [cookiescript.com](https://cookiescript.com)
 
 
 ## Configuration
