@@ -19,6 +19,8 @@ export default defineNuxtPlugin(() => {
 
   if (config.init) {
     // @ts-ignore
+    const culture = config.culture || 'EN'
+    // @ts-ignore
     const cbid = config.cbid
 
     if (!cbid) {
@@ -40,6 +42,7 @@ export default defineNuxtPlugin(() => {
             async: true,
             type: 'text/javascript',
             tagPriority: 5,
+            'data-culture': culture,
             'data-consentmode': !consentMode ? 'disabled' : undefined,
             'data-consentmode-defaults': !consentModeDefaults
               ? 'disabled'
